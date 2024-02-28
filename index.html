@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arfa dev.</title>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="grid2">
+                <h1>Arfa Dev.</h1>
+            </div>
+            <div class="grid5">
+                <div class="menu">
+                    <ul id="menu" class="hidden">
+                        <a  href="#">Beranda</a>
+                        <a  href="#">Berita</a>
+                        <a  href="#">Kontak</a>
+                        <a  href="#">Tentang</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid2"></div>
+            <div class="grid3">
+                <div class="lock">
+                    <a href="#" class="login">Login</a>
+                    <a href="#" class="register">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="container">
+            <div class="grid6">
+                <div class="hero-content">
+                    <h2>Tentang Kami</h2>
+                    Arfa Dev. Merupakan platform website yang menyediakan <br>berbagai fitur serta memudahkan para pengguna dalam mengatasi masalah komputer.
+                </div>
+            </div>
+            <div class="grid6">
+                <img src="/image/computer.jpg" alt="" width="400px">
+            </div>
+        </div>
+        <div class="container">
+            <div class="grid12">
+                <div class="footer">
+                    <p>2024 &copy; <b>Arfa Dev.</b></p>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var signUpButton = document.querySelector('.register');
+    
+        signUpButton.addEventListener('click', function(event) {
+            event.preventDefault(); 
+            
+            
+            alert('Terimakasih anda telah Sign Up!');
+        });
+    });
+    </script>
+
+</html>
